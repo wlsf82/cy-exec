@@ -14,7 +14,8 @@ it('executes shell commands, .sh, .js, and .py files', () => {
     .its('stdout')
     .should('be.equal', 'Hello, Cypress!')
 
-  cy.exec('python3 execFiles/test.py').its('stdout')
+  cy.exec('python3 execFiles/test.py')
+    .its('stdout')
     .should('be.equal', 'Hi, Cypress!')
 
   cy.exec('rm -rf temp/')
