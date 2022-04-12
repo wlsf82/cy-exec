@@ -1,6 +1,6 @@
 # cy-exec
 
-Sample project to demonstrate the usage of the cy.exec() command.
+Sample project to demonstrate the usage of the [cy.exec()](https://docs.cypress.io/api/commands/exec) command.
 
 ## Pre-requirements
 
